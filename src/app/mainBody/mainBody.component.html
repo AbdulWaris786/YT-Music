@@ -1,0 +1,79 @@
+<div class="condiner ">
+    <div class="option">
+        <app-option-bar *ngFor="let option of optionContent" [text]="option.text" ></app-option-bar>
+    </div>
+    <div class="rowOne">
+        <div class="headRow">
+            <h1 class="headOne">New releases</h1>
+            <div class="btnsRow">
+                <button class="btn a">More</button>
+                <button class="btn b"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn c"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="layer1">
+            <app-New-Releases *ngFor="let songs of newReleases" [image]="songs.image" [title]="songs.title" [artist]="songs.artist"></app-New-Releases>
+        </div>
+    </div>
+    <div class="rowTwo">
+        <h3 class="subHeadOne">START RADIO BASED ON A SONG</h3>
+        <div class="headRow">
+            <h1 class="headTwo">Quick picks </h1>
+            <div class="btnsRow">
+                <button class="btn a">Play all</button>
+                <button class="btn b"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn c"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="layer2">
+            <app-second-row></app-second-row>
+        </div>
+        <div class="flex h-[300px] w-[1050px] py-[100px] align-middle justify-center">
+            <app-which-artist></app-which-artist>
+            <div class=" py-[50px]">
+                <h2 class="text-white font-bold text-3xl">Tell us which artists you like</h2>
+                <h3 class="subHeadOne">We'll create an experience just for you</h3>
+                <button class="btn d">Let's go</button>
+            </div>
+        </div>
+    </div>
+    <div class="rowThree">
+        <h3 class="subHeadOne">START YOUR DAY ON A POSITIVE NOTE</h3>
+        <div class="headRow">
+            <h1 class="headTwo">Divine Tunes </h1>
+            <div class="btnsRow">
+                <button class="btn b"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn c"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="layer1">
+            <app-New-Releases *ngFor="let songs of newReleases" [image]="songs.image" [title]="songs.title" [artist]="songs.artist"></app-New-Releases>
+        </div>
+    </div>
+    <div class="rowTwo">
+        <div class="headRow">
+            <h1 class="headTwo h1">Trending in Shorts</h1>
+            <div class="btnsRow">
+                <button class="btn a">Play all</button>
+                <button class="btn b"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn c"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="layer2">
+            <app-second-row></app-second-row>
+        </div>
+    </div>
+    <div class="rowOne">
+        <h3 class="subHeadOne">BACKGROUND SCORE TO YOUR LOVE STORY</h3>
+        <div class="headRow">
+            <h1 class="headOne h1">Love. Chill. Repeat</h1>
+            <div class="btnsRow">   
+                <button class="btn b"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn c"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="layer1">
+            <app-New-Releases *ngFor="let songs of newReleases" [image]="songs.image" [title]="songs.title" [artist]="songs.artist"></app-New-Releases>
+        </div>
+    </div>
+</div>

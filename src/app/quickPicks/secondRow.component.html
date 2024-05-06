@@ -1,0 +1,13 @@
+<div class="condiner">
+    <div class="contents">
+        <div class="item"  *ngFor="let songs of QuickPcks">
+            <div class="image">
+                <img src="{{songs.image}}" alt="" class="img">
+            </div>
+            <div class="cont">
+                <p>{{songs.title}}</p>
+                <p>{{songs.artist}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.condiner{
+    background-color: white;
+    color: black;
+    height: 290px;
+    width: 100%;
+}
+.contents{
+    overflow-x: scroll;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,300px); 
+    grid-template-rows: repeat(4,10px);
+    row-gap: 60px;
+    /* gap: 10px; */
+}
+.contents::-webkit-scrollbar{
+    background-color:rgb(29,29,29);
+}
+.item {
+    height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    gap: 10px;
+}
+.image{
+    height: 100%;
+    width: 60px;
+}
+.img{
+    height: 100%;
+}
+.cont{
+    font-size: 15px;
+    height: 100%;
+    color: white;
+}

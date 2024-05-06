@@ -1,0 +1,110 @@
+.condiner{
+    padding-top: 40px;
+    background-color: black;
+    height:100vh;
+    overflow-y: scroll;
+    width: 85vw;
+    position: sticky;
+}
+.condiner::-webkit-scrollbar{
+    /* color: white; */
+    background-color:black;
+}
+.condiner::-webkit-scrollbar-thumb{
+    /* color: white; */
+    background: #000;
+}
+.option{
+    display: flex;
+    gap: 15px;
+    padding-left: 110px;
+    overflow: auto;
+}
+.rowOne{
+    padding-left: 110px;
+    padding-top: 100px;
+    width: 90%;
+}
+.headOne{
+    font-size: 33px;
+    color: white;
+    font-weight: bolder;
+}
+.headOne:hover{
+    text-decoration: underline;
+}
+.layer1{
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    
+}
+.layer1::-webkit-scrollbar{
+    background-color:rgb(29,29,29);
+}
+.subHeadOne{
+    color: rgb(170,169,169);
+
+}
+.headTwo{
+    font-size: 33px;
+    color: white;
+    font-weight: bolder;
+}
+.h1{
+    font-size: 28px;
+}
+.headTwo:hover{
+    text-decoration: underline;
+}
+.rowTwo{
+    padding-left: 110px;
+    padding-top: 100px;
+    width: 90%;
+}
+.headRow{
+    display: flex;
+}
+.btnsRow{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    gap: 20px;
+}
+.btn{
+    color: white;
+    /* background-color:  rgb(170,169,169); */
+    border-radius: 10px;
+    border: 1px solid rgba(170,169,169,.2) ;
+}
+.a{
+    height: 35px;
+    width: 70px;
+}
+.b,.c{
+    height: 35px;
+    width: 30px;
+}
+.d{
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    
+}
+.btn:hover{
+    background-color: rgb(170,169,169) ;
+}
+.rowThree{
+    padding-left: 110px;
+    padding-top: 100px;
+    width: 90%;
+}
+.layer2{
+    padding-top: 50px;
+}

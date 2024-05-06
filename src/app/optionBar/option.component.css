@@ -1,0 +1,18 @@
+.content{
+    background-color:rgb(76, 76, 76);
+    height:30px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.condiner{
+    padding-top: 50px;
+}
+.content:hover{
+    background-color:rgb(137, 137, 137);
+}

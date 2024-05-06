@@ -1,0 +1,27 @@
+.condiner{
+    /* background-color: aliceblue; */
+    width: 200px;
+    height: 300px;
+    padding-top: 20px;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image1{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+}
+.title{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+.artist{
+    color:white;
+    text-align: center;
+}

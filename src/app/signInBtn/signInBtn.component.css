@@ -1,0 +1,19 @@
+.sign-in-button{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.sideBar{
+    padding: 10px 80px;
+    background-color: rgb(255,255,255,.1);
+    color: white;
+    border-radius: 30px;
+    
+}
+.sideBar:hover{
+     background-color: rgb(255,255,255,.3);
+}

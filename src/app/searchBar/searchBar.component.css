@@ -1,0 +1,28 @@
+.inputTag {
+    background-color: rgb(41, 41, 41);
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.544);
+    border-radius: 10px;
+    color: white; /* Set text color to white */
+    padding-left: 40px; /* Adjust padding to make space for the search icon */
+}
+
+.condiner {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    position: absolute;
+    padding-left: 10px;
+}
+
+/* Adjust icon position */
+.bi-search {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: translateY(-50%);
+}
