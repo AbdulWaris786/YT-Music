@@ -76,4 +76,18 @@
             <app-New-Releases *ngFor="let songs of newReleases" [image]="songs.image" [title]="songs.title" [artist]="songs.artist"></app-New-Releases>
         </div>
     </div>
+    <div class="rowOne">
+        <h3 class="subHeadOne">PLAYLISTS FOR THE SEASON</h3>
+        <div class="headRow">
+            <h1 class="headOne h1">Hello, Summer!</h1>
+            <div class="btnsRow">   
+                <button class="btn b"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn c"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="layer1">
+            <app-New-Releases *ngFor="let songs of newReleases" [image]="songs.image" [title]="songs.title" [artist]="songs.artist"></app-New-Releases>
+        </div>
+    </div>
+    <div class="h-[200px]"></div>
 </div>

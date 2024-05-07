@@ -14,7 +14,13 @@ import { optionBarComponent } from './optionBar/option.component';
 import { newReleaseComponent } from './newReleasesRow/rowOne.component';
 import { secondRowComponent } from './quickPicks/secondRow.component';
 import { whichArtistCompontent } from './whichArtist/artist.component';
+import { loginComponent } from './Login/login.component';
+import { RouterModule, Routes } from '@angular/router';
 
+
+const router :Routes =[
+  {path:'login', component:loginComponent}
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +34,16 @@ import { whichArtistCompontent } from './whichArtist/artist.component';
     optionBarComponent,
     newReleaseComponent,
     secondRowComponent,
-    whichArtistCompontent
+    whichArtistCompontent,
+    loginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(router)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[RouterModule]
 })
 export class AppModule { }
