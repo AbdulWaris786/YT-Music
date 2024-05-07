@@ -1,6 +1,6 @@
-<app-header *ngIf="!isLoginPage()"></app-header>
+<app-header *ngIf="!isLoginPage()&&!isSignupPage()"></app-header>
 <router-outlet></router-outlet>
-<div class="flex" *ngIf="!isLoginPage()">
+<div class="flex" *ngIf="!isLoginPage()&&!isSignupPage()">
     <app-side-bar></app-side-bar>
     <app-main-body></app-main-body>
 </div>

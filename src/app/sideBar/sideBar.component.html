@@ -2,7 +2,7 @@
     <app-side-button *ngFor="let button of buttonContent" [text]="button.text" [icon]="button.icon"></app-side-button>
     <div class="line"></div>
     <div class="content">
-        <app-signup-btn buttonStyle="sideBar" class="px-3"></app-signup-btn>
+        <app-signup-btn buttonStyle="sideBar" class="px-3" routerLink="/login"></app-signup-btn>
         <p class="text-white text-sm py-3 px-5">Sign in to create & share playlists, get personalized recommendations, and more</p>
     </div>
 </div>  

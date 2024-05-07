@@ -16,11 +16,8 @@ import { secondRowComponent } from './quickPicks/secondRow.component';
 import { whichArtistCompontent } from './whichArtist/artist.component';
 import { loginComponent } from './Login/login.component';
 import { RouterModule, Routes } from '@angular/router';
+import { signupComponent } from './signup/signup.component';
 
-
-const router :Routes =[
-  {path:'login', component:loginComponent}
-]
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,12 +32,12 @@ const router :Routes =[
     newReleaseComponent,
     secondRowComponent,
     whichArtistCompontent,
-    loginComponent
+    loginComponent,
+    signupComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(router)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],

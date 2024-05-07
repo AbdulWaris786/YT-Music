@@ -12,4 +12,7 @@ export class AppComponent {
    isLoginPage():boolean {
     return this.router.url.includes("/login")
    }
+   isSignupPage():boolean{
+    return this.router.url.includes("/signup")
+   }
 }
